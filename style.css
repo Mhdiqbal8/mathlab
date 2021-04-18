@@ -1,0 +1,115 @@
+
+nav.navbar{
+	color: green !important;
+	/*background: #fff !important;*/
+}
+.navbar-nav a{
+	color: green !important;
+	font-size: .9em;
+	font-weight: bold;
+}
+.navbar-nav a:hover{
+	color: #000 !important;
+}
+
+.banner{
+	width: 100% !important;
+	height: 500px !important;
+	background-size: cover !important;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+
+/**********RESPONSIVE**********/
+@media(min-width: 768px){
+	#info{
+		padding: 50px !important;
+
+	}
+	.carousel-item{
+		width: 100%;
+	}
+	.card .card-body h6,p{
+		padding: 20px;
+	}
+}
+
+@media(max-width: 768px){
+	#info{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.carousel-item{
+		width: auto;
+	}
+	.card .card-body p{
+		/*padding: 10px;*/
+		display: none;
+	}
+}
+
+/**********RESPONSIVE**********/
+
+/********** CARD *************/
+.card{
+	transition: .2s;
+}
+.card:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+}
+span#tanggal{
+	font-size: 13px;
+}
+/********** CARD *************/
+
+/*bg*/
+
+.bg-gelap{
+	background-color: #03b12b !important;
+}
+.bg-cerah{
+	background: #08bd31 !important;
+	color: #91eda6;
+	/*color: #666;*/
+}
+
+
+
+
+/****************font**************/
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+/*relway*/
+.relway{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*arab*/
+.droid-arabic-kufi {
+  font-family: 'Droid Arabic Kufi', serif;
+}
+.arab{
+	font-family: 'Lateef', cursive !important;
+	direction: rtl !important;
+}
+/****************font**************/
+
+
+
+
+/***************UTILITIES************/
+
+.list-none{
+	list-style: none !important;
+	margin-left: -40px;
+}
+.decoration-none{
+	text-decoration: none !important;
+}
+/*UTILITIES*/
